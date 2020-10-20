@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: cloud
+    runs-on: vps
 
     strategy:
       matrix:
