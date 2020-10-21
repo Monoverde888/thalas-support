@@ -22,6 +22,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-    - run: eslint . --fix
+    - run: npm test
     env:
       CI: true
