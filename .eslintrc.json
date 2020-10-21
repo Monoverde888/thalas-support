@@ -18,7 +18,6 @@
         "require-await": ["warn"],
         "no-undefined": ["error"],
         "no-const-assign": ["error"],
-        "no-var": ["warn"],
-        "spaced-comment": ["warn"]
+        "no-var": ["warn"]
     }
 }
