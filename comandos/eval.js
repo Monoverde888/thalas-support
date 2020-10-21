@@ -1,5 +1,4 @@
 const Discord = require("discord.js")
-  let pe = "#ThalasCalvo"
   module.exports = async (client, message, args) => {
     if(args[0] == "client.config.token") return message.channel.send("no");
     if(args[0] == "client.config") return message.channel.send("no");
