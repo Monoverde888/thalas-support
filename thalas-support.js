@@ -72,7 +72,7 @@ for(const file of readdirSync('./eventos/')) {
 // <-- PROPIEDAD LOGIN: -->
 
 // Inicia sesión en Discord con el token definido en config.
-client.login(client.config.token) //agregamos las promesas de la propiedad login.
+client.login() //agregamos las promesas de la propiedad login.
   .then(() => { 
     console.log(`Thalas es calvo o yo no me llamo ${client.user.tag}`);
     client.user.setPresence({
