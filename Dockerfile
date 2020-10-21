@@ -1,6 +1,6 @@
-FROM node:12
+FROM node:12-alpine
 WORKDIR /usr/src/app
 COPY package*.json ./
-RUN npm ci
+RUN npm install
 COPY . .
-CMD ["node", "."]
+CMD ["node thalas-support.js"]
