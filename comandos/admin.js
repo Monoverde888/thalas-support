@@ -1,5 +1,5 @@
 const Discord = require("discord.js")
-module.exports = (client, message, args) => {
+module.exports = (client, message) => {
    if (!['322809311640289281', '414548693371453453'].includes(message.author.id)) {
       message.channel.send("Comando teniendo fallas tecnicas, como los streams de Thalas")
    } else {

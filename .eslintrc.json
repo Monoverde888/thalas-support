@@ -11,6 +11,7 @@
     "rules": {
         "semi": ["off", "always"],
         "quotes": ["off", "double"],
-        "no-unused-vars": ["warn"]
+        "no-unused-vars": ["warn"],
+        "no-void": ["error"]
     }
 }
