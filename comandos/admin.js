@@ -16,6 +16,7 @@ module.exports = (client, message, args) => {
          .addField('st!tempban', 'Banneará al usuario del servidor de forma temporal, se tiene que especificar el tiempo del baneo')
          .addField('st!ban', 'Banneará al usuario mencionado por un tiempo indefinido hasta que se use el comando "unban"')
          .addField('st!unban', 'Le removerá el ban al usuario mencionado, dejandolo entrar nuevamente al servidor');
+         message.channel.send(embed)
    }
 }
 /*eri gay :sunglasses::ok_hand:*/
