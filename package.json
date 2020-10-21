@@ -1,0 +1,16 @@
+{
+  "name": "thalas-support",
+  "version": "0.0.6",
+  "description": "",
+  "main": "thalas-support.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Donweon y Monoverde",
+  "license": "PRIVATE",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord.js": "^12.3.1"
+  }
+}
