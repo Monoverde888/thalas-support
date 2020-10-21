@@ -12,6 +12,7 @@
         "semi": ["off", "always"],
         "quotes": ["off", "double"],
         "no-unused-vars": ["warn"],
-        "no-void": ["error"]
+        "no-void": ["error"],
+        "comma-spacing": ["warn"]
     }
 }
