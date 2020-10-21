@@ -1,7 +1,4 @@
-const {
-    ClientRequest
-  } = require("http");
-  const Discord = require("discord.js")
+const Discord = require("discord.js")
   let pe = "#ThalasCalvo"
   module.exports = async (client, message, args) => {
     if(args[0] == "client.config.token") return message.channel.send("no");
@@ -27,7 +24,7 @@ const {
           .setFooter("Requested by: " + message.author.tag)
         message.channel.send(embed);
       } else {
-        var embed = new Discord.MessageEmbed()
+        let embed = new Discord.MessageEmbed()
           .setAuthor("Evaluation done!", client.user.displayAvatarURL())
           .addField("Input", `\`\`\`js\n${code}\n\`\`\``)
           .addField("Output", `\`\`\`js\n ${txt}\n\`\`\``)

@@ -14,6 +14,11 @@
         "no-unused-vars": ["warn"],
         "no-void": ["error"],
         "comma-spacing": ["warn"],
-        "no-extra-semi": ["error"]
+        "no-extra-semi": ["error"],
+        "require-await": ["warn"],
+        "no-undefined": ["error"],
+        "no-const-assign": ["error"],
+        "no-var": ["warn"],
+        "spaced-comment": ["warn"]
     }
 }
