@@ -1,0 +1,20 @@
+{
+  "name": "thalas-support",
+  "version": "0.0.6",
+  "description": "",
+  "main": "thalas-support.js",
+  "scripts": {
+    "start": "node .",
+    "test": "eslint ."
+  },
+  "keywords": [],
+  "author": "Donweon y Monoverde",
+  "license": "PRIVATE",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "eslint": "^7.11.0",
+    "eslint-config-standard-jsdoc": "^9.3.0",
+    "eslint-plugin-jsdoc": "^30.7.3"
+  },
+  "devDependencies": {}
+}
