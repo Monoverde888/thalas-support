@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-let {
-  readdirSync
-} = require('fs');
+let { readdirSync } = require('fs');
 
 
 process.on('SIGTERM', () => {

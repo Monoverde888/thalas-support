@@ -19,7 +19,7 @@ module.exports = (client, message) => {
 
   // Manejando los eventos.
   let cmd = client.comandos.get(command); // Obtiene el comando de la colección client.commandos
-  if (!cmd) return; // Si no hay comandos no ejecute nada.
+  if (!cmd) return; 
 
   // Ejecuta el comando enviando el client, el mensaje y los argumentos.
   cmd(client, message, args);
