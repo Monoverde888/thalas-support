@@ -50,7 +50,7 @@ for (const file of readdirSync('./eventos/')) {
 }
 
 
-client.login(client.config.token)
+client.login()
   .then(() => {
     console.log(`Thalas es calvo o yo no me llamo ${client.user.tag}`);
     client.user.setPresence({
