@@ -1,6 +1,10 @@
+'use strict';
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 let { readdirSync } = require('fs');
+
+
 
 
 process.on('SIGTERM', () => {
@@ -11,7 +15,6 @@ process.on('SIGTERM', () => {
 
 
 client.config = require('./config.js');
-
 client.comandos = new Discord.Collection();
 
 
@@ -50,7 +53,7 @@ for (const file of readdirSync('./eventos/')) {
 }
 
 
-client.login()
+client.login(client.config.token)
   .then(() => {
     console.log(`Thalas es calvo o yo no me llamo ${client.user.tag}`);
     client.user.setPresence({
