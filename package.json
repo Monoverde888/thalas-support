@@ -1,6 +1,6 @@
 {
   "name": "thalas-support",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "thalas-support.js",
   "scripts": {
@@ -9,12 +9,13 @@
   },
   "keywords": [],
   "author": "Donweon y Monoverde",
-  "license": "PRIVATE",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^12.3.1",
-    "eslint": "^7.11.0",
     "eslint-config-standard-jsdoc": "^9.3.0",
     "eslint-plugin-jsdoc": "^30.7.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  }
 }
