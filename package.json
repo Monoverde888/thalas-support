@@ -11,7 +11,7 @@
   "author": "Donweon y Monoverde",
   "license": "MIT",
   "dependencies": {
-    "@discordjs/opus": "^0.3.2",
+    "@discordjs/opus": "^0.3.3",
     "discord.js": "^12.4.0",
     "eslint-config-standard-jsdoc": "^9.3.0",
     "eslint-plugin-jsdoc": "^30.7.3"
