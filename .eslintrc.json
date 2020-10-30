@@ -18,6 +18,7 @@
         "require-await": ["warn"],
         "no-undefined": ["error"],
         "no-const-assign": ["error"],
-        "no-var": ["warn"]
+        "no-var": ["warn"],
+        "no-useless-escape": ["warn"]
     }
 }
