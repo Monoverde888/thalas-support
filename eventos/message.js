@@ -8,7 +8,7 @@ module.exports = (client, message) => {
       .addField("Contenido:", message.content, true)
       .addField("Autor:", message.author.tag, true)
       .addField("ID:", message.author.id, true)
-    return client.channels.cache.get("738032942776975370").send(embed)
+    return client.channels.cache.get("738032942776975370").send(embed) && message.channel.send("Gracias por tu mensaje pero esta no es una forma de contactar al staff o a thalas, si quieres contactarlos mandale un mensaje a  Monoverde \🎃#8888 o DonWeon#1234")
   }
   if (!message.content.startsWith(client.config.prefix)) return;
   if (message.author.bot) return;
